@@ -155,7 +155,7 @@ class App extends Component {
     })
   }
 
-  //function that dismisses the vibration once timer reaches 0:00
+  //function that dismisses the sound once timer reaches 0:00
   dismissSound = () => {
     this.interval = setInterval(this.dec, 1000)
     this.props.resettingTimer()
