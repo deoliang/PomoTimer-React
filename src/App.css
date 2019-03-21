@@ -1,0 +1,34 @@
+#Container{
+	
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+#TimeContainer{
+	display:flex;
+	flex-direction:row;
+	font-size: 25vmin;
+}
+/*default body css from create react app*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+button{
+  background-color: #8ab3f7;
+  min-width: 20vw;
+  color:white;
+  font-size: 3vmin;
+  margin-bottom: 10px;
+}
+button:hover{
+  background-color:#6786b8;
+}
