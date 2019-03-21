@@ -24,9 +24,9 @@ body {
 }
 button{
   background-color: #8ab3f7;
-  min-width: 20vw;
+  min-width: 28vw;
   color:white;
-  font-size: 3vmin;
+  font-size: 4vmin;
   margin-bottom: 10px;
 }
 button:hover{
