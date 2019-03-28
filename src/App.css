@@ -23,6 +23,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 button{
+  outline:none;
+  border-color: #8ab3f7;
   background-color: #8ab3f7;
   min-width: 28vw;
   color:white;
